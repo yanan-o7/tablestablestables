@@ -7,10 +7,13 @@ from .ПРАКТИКУМ_3 import (
     get_value,
     set_values,
     set_value,
-    print_table
+    print_table,
+    load_table_csv,
+    save_table_csv,
+    load_table_pickle,
+    save_table_pickle,
+    save_table_txt
 )
-
-from .ПРАКТИКУМ_3 import load_table_csv, save_table_csv, load_table_pickle, save_table_pickle, save_table_txt
 
 __all__ = [
     "get_rows_by_number",
